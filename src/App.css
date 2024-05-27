@@ -1,0 +1,772 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    height: 50px;
+   
+}
+
+
+.h3 {
+    color: white;
+    font-size: 40px;
+    
+}
+
+.navlink {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px;
+   
+}
+
+.link {
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    transition: 4s;
+}
+
+.nav-actions {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+.search-bar {
+    margin-top: 15px;
+    border-radius: 9px;
+    border: 1px solid #ccc;
+    background-color: black;
+    width: 150px;
+    color: black;
+  }
+  .search-bar:hover{
+    background-color: #bbbbbb46;
+    color: black;
+  }
+
+  .search-bar::placeholder {
+    color: #bbb; 
+    font-size: 15px;
+    
+  }
+
+.link:hover {
+    color: rgb(255, 119, 0);
+}
+
+
+
+.btnlogin {
+    padding: 10px 20px;
+    border:2px solid #ff4500;
+    border-radius: 5px;
+    background-color:black;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .btnlogin:hover {
+    background-color:#ff4500;
+  }
+
+.home {
+    background-image: url("./bnnr.jpg");
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.head {
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    font-size: 20px;
+}
+
+.ibox {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 100px 150px 0px 150px;
+}
+
+.ibox1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 100px 210px 100px 210px;
+}
+
+.icon1 {
+    background-color: rgb(248, 248, 248);
+    width: 200px;
+    height: 200px;
+    background-image: url("./order.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 2px 5px 10px rgba(182, 182, 182, 0.534);
+    display: flex;
+    justify-content: center;
+    align-items: last baseline;
+}
+
+.icon2 {
+    background-color: rgb(248, 248, 248);
+    width: 200px;
+    height: 200px;
+    background-image: url(./fast-delivery.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 2px 5px 10px rgba(182, 182, 182, 0.534);
+    display: flex;
+    justify-content: center;
+    align-items: last baseline;
+}
+
+.icon3 {
+    background-color: rgb(248, 248, 248);
+    width: 200px;
+    height: 200px;
+    background-image: url("./medal.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 2px 5px 10px rgba(182, 182, 182, 0.534);
+    display: flex;
+    justify-content: center;
+    align-items: last baseline;
+}
+
+.scndbx {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 150px 250px 0px 250px;
+    gap: 100px;
+}
+
+.img {
+    /* background-color: rgb(248, 248, 248); */
+    width: 500px;
+    height: 600px;
+    background-image: url("https://images.unsplash.com/photo-1467003909585-2f8a72700288?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+    border: 1px solid red;
+}
+
+.para {
+    width: 500px;
+}
+
+.fsth3 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.fsth1 {
+    font-size: 40px;
+}
+
+.pra {
+    font-size: 18px;
+}
+
+.trdbx {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 60px;
+}
+
+
+.head {
+    font-size: 40px;
+}
+
+.chefalign {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.img1 {
+    background-color: rgb(248, 248, 248);
+    width: 200px;
+    height: 200px;
+    background-image: url("https://images.unsplash.com/photo-1577219491135-ce391730fb2c?q=80&w=1954&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+    text-align: center;
+    color: rgb(255, 106, 57);
+    font-size: 20px;
+    box-shadow: 2px 5px 10px rgba(182, 182, 182, 0.534);
+    display: flex;
+    justify-content: center;
+    align-items: last baseline;
+}
+
+.img2 {
+    background-color: rgb(248, 248, 248);
+    width: 200px;
+    height: 200px;
+    background-image: url("https://images.unsplash.com/photo-1581349485608-9469926a8e5e?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+    text-align: center;
+    color: white;
+    box-shadow: 2px 5px 10px rgba(182, 182, 182, 0.534);
+    display: flex;
+    justify-content: center;
+    align-items: last baseline;
+}
+
+.img3 {
+    background-color: rgb(248, 248, 248);
+    width: 200px;
+    height: 200px;
+    background-image: url("https://images.unsplash.com/photo-1566554273541-37a9ca77b91f?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+    text-align: center;
+    color: white;
+    box-shadow: 2px 5px 10px rgba(182, 182, 182, 0.534);
+    display: flex;
+    justify-content: center;
+    align-items: last baseline;
+}
+
+.img4 {
+    background-color: rgb(248, 248, 248);
+    width: 200px;
+    height: 200px;
+    background-image: url("https://images.unsplash.com/photo-1532635211-8ec15f2ce05c?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+    color: white;
+    text-align: center;
+    box-shadow: 2px 5px 10px rgba(182, 182, 182, 0.534);
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: last baseline;
+}
+
+.menu {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.special {
+    margin-top: 100px;
+}
+
+.homeh1 {
+    color: #ff4500;
+    font-size: 50px;
+}
+
+.searchInput {
+    border: none;
+    border-radius: 25px;
+    box-shadow: 2px 2px 10px rgba(255, 185, 138, 0.516);
+    width: 150px;
+    height: 20px;
+    padding: 10px;
+    transition: 1s;
+    outline: none;
+    background-color: white;
+
+}
+
+.searchInput:hover {
+    border: none;
+    box-shadow: 8px 10px 15px #fc8e45c8;
+    color: rgb(32, 32, 32);
+    height: 30px;
+    width: 300px;
+    border-radius: 35px;
+
+}
+
+::placeholder {
+    color: rgb(255, 157, 36);
+}
+
+.mmainbx1 {
+    background-color: #ff4500;
+    height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+    
+}
+
+.msubmainbx1 {
+    padding: 50px;
+    background-color: white;
+    height: 300px;
+    width: 600px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.msubmainbx2 {
+    background-color: white;
+    height: 400px;
+    width: 600px;
+    background-image: url("./menuimg1.jpg");
+    border-radius: 20px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 5px 10px 20px rgb(78, 27, 0);
+}
+.menuhead1{
+    font-size: 56px;
+}
+.menuhead2{
+    /* margin-bottom: 110px; */
+}
+.menubtn2{
+    background-color: black;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 9px;
+    border: none;
+    width: 150px;
+}
+.menubtnarow{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 300px;
+}
+
+.menuicon1{
+    background-color: rgb(248, 248, 248);
+    width: 50px;
+    height: 50px;
+    background-image: url("./arrows.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 30px;
+    color: white;
+    text-align: center;
+    box-shadow: 2px 5px 10px rgba(182, 182, 182, 0.534);
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: last baseline;
+}
+.mmainbx2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 70px;
+    background-color: antiquewhite;
+    border-radius: 20px;
+    padding: 100px;
+}
+.menu_main_column1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.menu_row1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 40px;
+    margin-top: 90px;
+}
+.menu_sub_column{
+    display: flex;
+    flex-direction: column;
+}
+.mimg1{
+    background-color: rgb(248, 248, 248);
+    width: 250px;
+    height: 300px;
+    background-image: url("https://img.freepik.com/free-photo/delicious-pizza-indoors_23-2150873912.jpg?t=st=1711384390~exp=1711387990~hmac=d2c93122bce34b3b17b91ac7c6728447377593cd5276c98b7f7d001c7c5daf14&w=360");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 30px;
+    color: white;
+    text-align: center;
+    box-shadow: 2px 5px 10px rgba(182, 182, 182, 0.534);
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: last baseline;
+}
+.mimg2{
+    background-color: rgb(248, 248, 248);
+    width: 250px;
+    height: 300px;
+    background-image: url("https://images3.alphacoders.com/868/868525.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 30px;
+    color: white;
+    text-align: center;
+    box-shadow: 2px 5px 10px rgba(182, 182, 182, 0.534);
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: last baseline;
+}
+.mimg3{
+    background-color: rgb(248, 248, 248);
+    width: 250px;
+    height: 300px;
+    background-image: url("https://img.freepik.com/free-photo/side-view-shawarma-with-fried-potatoes-board-cookware_176474-3215.jpg?t=st=1711391575~exp=1711392175~hmac=4ffe8cf929ba8dd68027deb753f93ada621bba3c11960b5fd4e44a25bf185a8f");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 30px;
+    color: white;
+    text-align: center;
+    box-shadow: 2px 5px 10px rgba(182, 182, 182, 0.534);
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: last baseline;
+}
+.mimg4{
+    background-color: rgb(248, 248, 248);
+    width: 250px;
+    height: 300px;
+    background-image: url("https://images.unsplash.com/photo-1571091655789-405eb7a3a3a8?q=80&w=2072&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 30px;
+    color: white;
+    text-align: center;
+    box-shadow: 2px 5px 10px rgba(182, 182, 182, 0.534);
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: last baseline;
+}
+.mimg5{
+    background-color: rgb(248, 248, 248);
+    width: 250px;
+    height: 300px;
+    background-image: url("https://images.unsplash.com/photo-1589302168068-964664d93dc0?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 30px;
+    color: white;
+    text-align: center;
+    box-shadow: 2px 5px 10px rgba(182, 182, 182, 0.534);
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: last baseline;
+}
+.mimg6{
+    background-color: rgb(248, 248, 248);
+    width: 250px;
+    height: 300px;
+    background-image: url("https://images.unsplash.com/photo-1603133872878-684f208fb84b?q=80&w=1925&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 30px;
+    color: white;
+    text-align: center;
+    box-shadow: 2px 5px 10px rgba(182, 182, 182, 0.534);
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: last baseline;
+}
+.mimg7{
+    background-color: rgb(248, 248, 248);
+    width: 250px;
+    height: 300px;
+    background-image: url("https://images.unsplash.com/photo-1611270629569-8b357cb88da9?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 30px;
+    color: white;
+    text-align: center;
+    box-shadow: 2px 5px 10px rgba(182, 182, 182, 0.534);
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: last baseline;
+}
+.mimg8{
+    background-color: rgb(248, 248, 248);
+    width: 250px;
+    height: 300px;
+    background-image: url("https://images.unsplash.com/photo-1565976469782-7c92daebc42e?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 30px;
+    color: white;
+    text-align: center;
+    box-shadow: 2px 5px 10px rgba(182, 182, 182, 0.534);
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: last baseline;
+}
+.mimg9{
+    background-color: rgb(248, 248, 248);
+    width: 250px;
+    height: 300px;
+    background-image: url("https://img.freepik.com/photos-premium/assiette-dessert-gourmande-au-caramel-chocolat-ia-generative_188544-46144.jpg?w=1060");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 30px;
+    color: white;
+    text-align: center;
+    box-shadow: 2px 5px 10px rgba(182, 182, 182, 0.534);
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: last baseline;
+}
+.mimg10{
+    background-color: rgb(248, 248, 248);
+    width: 250px;
+    height: 300px;
+    background-image: url("https://images.unsplash.com/photo-1600648832373-6f5e75b71ce3?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 30px;
+    color: white;
+    text-align: center;
+    box-shadow: 2px 5px 10px rgba(182, 182, 182, 0.534);
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: last baseline;
+}
+.mimg11{
+    background-color: rgb(248, 248, 248);
+    width: 250px;
+    height: 300px;
+    background-image: url("https://img.freepik.com/free-photo/fruit-bowl-with-chocolate-cream-mousse_140725-5821.jpg?w=360&t=st=1711393566~exp=1711394166~hmac=4aca4be4d04ca64392ae970e453bfa3962b8409513634130ef59b893dea0c078");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 30px;
+    color: white;
+    text-align: center;
+    box-shadow: 2px 5px 10px rgba(182, 182, 182, 0.534);
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: last baseline;
+}
+.mimg12{
+    background-color: rgb(248, 248, 248);
+    width: 250px;
+    height: 300px;
+    background-image: url("https://img.freepik.com/free-photo/chocolate-brownie-cake-with-scoop-ice-cream_155003-433.jpg?w=360");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 30px;
+    color: white;
+    text-align: center;
+    box-shadow: 2px 5px 10px rgba(182, 182, 182, 0.534);
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: last baseline;
+}
+.menu_cart_btn{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 9px;
+    border: none;
+    width: 110px;
+}
+.menu_cart_btn:hover{
+    background-color: #ff4500;
+}
+
+.about{
+    background-color: black;
+    height: 700px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.about_main_bx1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+    background-color: white;
+    height: 500px;
+    width: 900px;
+    margin-top: 50px;
+    border-radius: 40px;  
+    padding: 0px 150px 0px 150px;  
+}
+.about_txt_bx1{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 400px;
+}
+.about_img_bx1{
+    background-color: rgb(248, 248, 248);
+    width: 400px;
+    height: 400px;
+    background-image: url("https://images.unsplash.com/photo-1574484284002-952d92456975?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 30px;
+    color: white;
+    text-align: center;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: last baseline;
+}
+.about_bttn1{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 9px;
+    border: none;
+    width: 110px;
+}
+.about_bttn1:hover{
+    background-color: #ff4500;
+    
+}
+.about_h1a{
+    color: #ff4500;
+}
+
+.form{
+background-color: black;
+display: flex;
+flex-direction: column;
+justify-content: left;
+width: 500px;
+}
+
+.contact-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f0f0;    
+    background-image: url("https://img.freepik.com/free-photo/traditional-indian-soup-lentils-indian-dhal-spicy-curry-bowl-spices-herbs-rustic-black-wooden-table_2829-18717.jpg?w=900&t=st=1715763975~exp=1715764575~hmac=f7e9e9f7588bd11fe2e7efd0047ea8590ec387810df3c52fd765646386ce58bf");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    margin: 0 auto;
+    max-width: 600px;
+    background: rgba(255, 255, 255, 0.1); /* Semi-transparent background */
+    border-radius: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px); /* Blurred glass effect */
+    -webkit-backdrop-filter: blur(10px); /* Safari support */
+  }
+  
+  .cbox {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  label {
+    margin-bottom: 5px;
+    font-weight: 400;
+    color: #f0f0f0;
+  }
+  
+  input, textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+    background: rgba(255, 255, 255, 0.5); /* Slightly transparent inputs */
+  }
+  
+  input[type="submit"] {
+    background-color:#ff4500;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px 20px;
+    font-size: 16px;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #d63b02;
+  }
+  
