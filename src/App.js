@@ -67,7 +67,7 @@ function App() {
           <div className="footer-section">
             <h4>Contact Me</h4>
             <ul>
-              <li>Email: info@company.com</li>
+              <li>Email: info@foodies.com</li>
               <li>Phone: +123 456 7890</li>
               <li>Address: 123 Main St, Anytown, USA</li>
             </ul>
@@ -75,7 +75,7 @@ function App() {
         </div>
       </div>
       <div className="footer-bottom">
-        <p>&copy; 2024 Company Name. All rights reserved.</p>
+        <p>&copy; 2024 Foodie's. All rights reserved.</p>
       </div>
     </footer>
       </div>
