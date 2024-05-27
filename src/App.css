@@ -116,6 +116,11 @@
     display: flex;
     justify-content: center;
     align-items: last baseline;
+    transition: 500ms all;
+}
+.icon1:hover{
+    transform: scale(1.1);
+    transition: 500ms all;  
 }
 
 .icon2 {
@@ -132,6 +137,11 @@
     display: flex;
     justify-content: center;
     align-items: last baseline;
+    transition: 500ms all;
+}
+.icon2:hover{
+    transform: scale(1.1);
+    transition: 500ms all;
 }
 
 .icon3 {
@@ -148,6 +158,11 @@
     display: flex;
     justify-content: center;
     align-items: last baseline;
+    transition: 500ms all;
+}
+.icon3:hover{
+    transform: scale(1.1);
+    transition: 500ms all;
 }
 
 .scndbx {
@@ -167,7 +182,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 15px;
-    border: 1px solid red;
+
 }
 
 .para {
