@@ -62,7 +62,7 @@ function App() {
               <li><a href="#">Order Status</a></li>
             </ul>
           </div>
-        </div>
+        </div> 
         <div className="footer-right">
           <div className="footer-section">
             <h4>Contact Me</h4>
